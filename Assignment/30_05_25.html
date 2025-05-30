@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .table {
+    background: #79dcd6;
+    /* border: 1px solid black; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 80px;
+     border-radius: 10px;
+  }
+  .parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+</style>
+
+<body>
+  <div class="parent">
+    <div class="table">
+
+      <table border="2px" cellspacing="8" cellpadding="10px">
+        <thead>
+          <tr>
+            <th rowspan="3" bgcolor="cyan">Day</th>
+            <th colspan="3" bgcolor="red">Seminar</th>
+          </tr>
+          <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+          </tr>
+          <tr>
+            <td>End</td>
+            <td>Begin</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2" bgcolor="yellow">8:00 am</td>
+            <td rowspan="2"  bgcolor="blue">5:00pm</td>
+            <td>Introduction of XML</td>
+          </tr>
+          <tr>
+            <td>Validity: DTD and Relax NG</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Tuesday</td>
+            <td  bgcolor="yellow">8:00 am</td>
+            <td  bgcolor="yellow">11:00 am</td>
+            <td>XP path</td>
+          </tr>
+          <tr>
+            <td  bgcolor="yellow">11:00 am</td>
+            <td  bgcolor="green">2:00 pm</td>
+            <td rowspan="2"> XSL Transformatics</td>
+          </tr>
+          <tr>
+            <td  bgcolor="green">2:00 am</td>
+            <td bgcolor="blue">5:00 pm</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td  bgcolor="yellow">8:00 am</td>
+            <td  bgcolor="green">12:00 pm</td>
+            <td>XSL formatting Object</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>
