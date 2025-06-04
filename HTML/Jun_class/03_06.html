@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Descendant selector (space )*/
+
+    div p {
+      color: red;
+    }
+
+    /* child selector( > )  */
+
+    section>p {
+      color: blue;
+    }
+
+    /* adjacent selector ( + )  */
+
+    h2+h3 {
+      color: blueviolet;
+    }
+
+    /* Genral selector ( ~ )  */
+
+    section~h1 {
+      color: chocolate;
+    }
+  </style>
+</head>
+
+<body>
+  <p>this is para 1</p>
+  <h1> this is header1</h1>
+  <div>
+    <p>this is para inside div</p>
+    <h1> this is header inside div</h1>
+    <section>
+      <p>this is para inside section</p>
+      <h1> this is header inside section</h1>
+    </section>
+    <h1>this is outside heding</h1>
+    <p>this is outside para</p>
+  </div>
+
+  <div>
+    <p>this is para secend div</p>
+    <h1> this is header secend div</h1>
+  </div>
+  <h2>this is para 2</h2>
+  <h3> this is header2</h3>
+
+
+</body>
+
+</html>
