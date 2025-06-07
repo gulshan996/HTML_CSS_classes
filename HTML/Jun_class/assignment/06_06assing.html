@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    form {
+
+      align-items: center;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 55px;
+
+    }
+
+    .final {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 15rem;
+    }
+
+    label {
+      margin-right: 15vh;
+
+    }
+
+    input {
+      font: 1em sans-serif;
+
+
+    }
+    .Identy{
+      display: flex;
+      align-items: center;
+
+    }
+    .submit{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      gap: 2rem;
+    }
+ 
+
+    
+  </style>
+</head>
+
+<body>
+  <h1><u>Assignment</u></h1>
+  <form action="" class="form-row">
+    <fieldset>
+      <legend>Personal Details</legend>
+      <div class="final">
+        <div class="first-div">
+          <label for="name">Applicant's full Name</label>
+          <select>
+            <option value="select">--Select--</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+          </select>
+          <input type="text" name="name" id="name">
+          <br><br>
+          <label for="father">Father's
+            Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <select>
+            <option value="mr">Mr.</option>
+          </select>
+          <input type="text" name="father" id="father">
+          <br><br>
+          <label
+            for="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" name="gender">Male
+          <input type="radio" name="gender">Female
+          <input type="radio" name="gender">Others
+          <br><br>
+          <label for="marital">Marital
+            Status&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</label>
+          <select>
+            <option>--Select--</option>
+            <option value="married">Married</option>
+            <option value="Unmarried">Unmarried</option>
+          </select>
+          <br><br>
+          <label
+            for="handicapped">Handicapped&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" name="handicapped">No
+          <input type="radio" name="handicapped">Yes
+          <br><br>
+          <label for="ews">EWS&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" name="ews">No
+          <input type="radio" name="ews">Yes
+        </div>
+
+        <div class="secend-div">
+          <label for="careof">Care Of&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="radio" name="careof">No
+          <input type="radio" name="careof">Yes
+          <br><br>
+          <label for="mother">Mother's Name</label>
+          <select>
+            <option value="mr">Mrs.</option>
+          </select>
+          <input type="text" name="mother" id="mother">
+          <br><br>
+          <label for="dob">Date Of Birth&nbsp;&nbsp;</label>
+          <input type="date" name="dob" id="dob">
+          <br><br>
+          <label for="category">Category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <select>
+            <option>--Select--</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+            <option value="obc">OBC</option>
+            <option value="genral">GEN</option>
+          </select>
+          <br><br>
+          <label for="Ex-Serviceman">Ex-Serviceman</label>
+          <input type="radio" name="Ex-Serviceman">NO
+          <input type="radio" name="Ex-Serviceman">Yes
+          <br><br>
+          <label for="Religion">Religion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <select>
+            <option>--Select--</option>
+            <option value="sc">Hindu</option>
+            <option value="st">Muslim</option>
+            <option value="obc">Sikh</option>
+            <option value="genral">Christian</option>
+          </select>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset>
+
+      <legend>Contact Details</legend>
+      <div class="final">
+        <div class="first-div">
+          <label for="Mobile">Mobile&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" name="Mobile" id="Mobile">
+          <br><br>
+          <label for="Address-1">Add. Line 1</label>
+          <input type="text" name="Address-1" id="Address-1">
+          <br><br>
+          <label for="City">City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" name="city" id="city">
+          <br><br>
+          <label for="PinCode">PinCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text" name="PinCode" id="PinCode">
+        </div>
+        <div class="secend-div">
+          <label for="email">Email ID&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="email" name="email" id="email">
+          <br><br>
+          <label for="Address-2">Add. Line 2</label>
+          <input type="text" name="Address-2" id="Address-2">
+          <br><br>
+          <label for="city">Select State</label>
+          <select>
+            <option>--Select--</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="AS">Assam</option>
+            <option value="BR">Bihar</option>
+            <option value="CG">Chhattisgarh</option>
+            <option value="GA">Goa</option>
+            <option value="GJ">Gujarat</option>
+            <option value="HR">Haryana</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="JH">Jharkhand</option>
+            <option value="KA">Karnataka</option>
+            <option value="KL">Kerala</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="MH">Maharashtra</option>
+            <option value="MN">Manipur</option>
+            <option value="ML">Meghalaya</option>
+            <option value="MZ">Mizoram</option>
+            <option value="NL">Nagaland</option>
+            <option value="OD">Odisha</option>
+            <option value="PB">Punjab</option>
+            <option value="RJ">Rajasthan</option>
+            <option value="SK">Sikkim</option>
+            <option value="TN">Tamil Nadu</option>
+            <option value="TG">Telangana</option>
+            <option value="TR">Tripura</option>
+            <option value="UP">Uttar Pradesh</option>
+            <option value="UK">Uttarakhand</option>
+            <option value="WB">West Bengale</option>
+          </select>
+          <br><br>
+        </div>
+      </div>
+    </fieldset>
+    <fieldset class="">
+      <legend>Qualification Details</legend>
+      
+        <table style="">
+        <tr>
+          <th>Sr.No.</th>
+          <th>Qualification</th>
+          <th>Board/University</th>
+          <th>Passing Year</th>
+          <th>Max Marks</th>
+          <th>marks Obtain</th>
+          <th>percentage</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td><select name="Qualification" id="Qualification">--Select--</select></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        </table>
+     <br>
+    </fieldset>
+    <fieldset>
+      
+      <legend>Identification Details</legend>
+      <div class="Identy">
+        <div>
+
+          <label for="adhar">Adhar Card No.</label>
+          <input type="text" name="adhar" id="adhar">
+          <br><br>
+          <label for="photo">Upload photo :</label>
+          <input type="file" name="photo" id="photo">
+        </div>
+        <div>
+        
+          <label for="pan">Pan Card No.</label>
+          <input type="text" name="pan" id="pan">
+          <br><br>
+          <label for="file">Upload  sing.</label>
+          <input type="file" name="file" id="file">
+        </div>
+      <br><br>
+    </div>
+    </fieldset>
+
+    <div class="submit">
+
+      <input type="submit" name="submit" id="submit">
+      <input type="reset" name="reset" id="reset">
+    </div>
+  </form>
+</body>
+
+</html>
