@@ -5,237 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <style>
     * {
-      margin: 0;
       padding: 0;
+      margin: 0;
       box-sizing: border-box;
-      background: #000;
-    }
 
-    body {
-      justify-content: center;
-      align-items: center;
-      display: flex;
-    }
-
-    .container {
-      background: #ffffff;
-      height: 85vh;
-      width: 80vh;
-      margin-top: 10vh;
-    }
-
-    .header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      height: 30vh;
-      background-image: url(https://assets.serenity.co.uk/58000-58999/58779/1296x864.jpg);
-      background-position: bottom;
-    }
-
-    .icon {
-      padding: 5px;
-      background-color: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-
-    }
-
-    i {
-      background-color: transparent;
-      height: 30px;
-      width: 30px;
-      border-radius: 50%;
-      gap: 10px;
-    }
-
-    .box_flex {
-      display: flex;
-      justify-content: space-between;
-      height: 5vh;
-      width: 60vh;
-      background: white;
-
-    }
-
-    .anchar,
-    a {
-      display: flex;
-      background: white;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      margin-right: 5px;
-
-
-    }
-
-    .img {
-      background: transparent;
-      display: flex;
-      align-items: center;
-
-    }
-
-    h2 {
-      margin-left: 10px;
-      background: white;
-      color: red;
-    }
-
-    h4 {
-      font-size: 20px;
-      padding: 5px;
-      margin-top: 70px;
-      background-color: transparent;
-      color: #ffffff;
-
-
-    }
-
-    h6 {
-      background-color: transparent;
-      color: #ffffff;
-
-    }
-
-    button {
-      width: 150px;
-      height: 30px;
-      margin: 5px;
-      background: rgb(232, 0, 0);
-      border-radius: 5px;
-      margin-top: 10px;
     }
 
     h1 {
-
-      background: white;
       text-align: center;
-      font-weight: bold;
+      color: red;
+      margin-top: 50px;
     }
 
-    h3 {
-      margin-top: 30px;
-      background: white;
-      text-align: center;
+    .navbaar {
+      background: #cd8282;
+      height: 20vh;
+      padding: 2vh;
+
     }
 
-    p {
-      background-color: white;
-      text-align: center;
-    }
-
-    .four_div {
-      background: white;
-      display: inline-flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-      margin-left: 10vh;
-      padding: 10px;
-      margin-top: 20px;
-    }
-
-
-    .item {
-      border: 2px solid black;
-      background: white;
-      height: 150px;
-      width: 150px;
+    .container {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
-      justify-content: center;
-
+      text-align: center;
     }
 
-    .item-1 {
-      background: rgb(66, 176, 121);
-    }
-
-    .item-2 {
-      background: rgb(221, 165, 62);
-    }
-
-    .item-3 {
-      background: rgb(94, 112, 253);
-    }
-
-    .item-4 {
-      background: rgb(0, 224, 112);
-    }
-
+    .items,
     img {
-      height: 100%;
-      width: 100%;
+      background: #000;
+      border-radius: 50%;
+      height: 50px;
+      width: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: center;
+      padding: 8vh;
+      text-align: center;
+    }
+    .items-mobile{
+      order: -1;
+    }
+    .items-man{
+      order: 6;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="icon">
+  <h1>Flipkart Login</h1>
+  <nav class="navbaar">
+    <div class="container">
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Kids</a>
+      </div>
+      <div class="itmes items-man">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Men</a>
+      </div>
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">WOmen</a>
+      </div>
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Bronbabies</a>
+      </div>
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Applilances</a>
+      </div>
+      <div class="itmes items-mobile">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Mobail</a>
+      </div>
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Furntuer</a>
+      </div>
+      <div class="itmes">
+        <img src="https://th.bing.com/th/id/OIP.EC1LeuYwUBUDBujCOQ1prwHaEo?w=271&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="">
+        <a href="#">Extra</a>
+      </div>
+  </nav>
 
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-messenger"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-github"></i>
-      </div>
-      <div class="box_flex">
-        <div class="img">
-          <img
-            src="https://www.shutterstock.com/shutterstock/photos/35364124/display_1500/stock-vector-vector-abstract-colorful-background-clip-art-35364124.jpg"
-            alt="" style="width: 45px;">
-          <h2>FLEX</h2>
-        </div>
-        <div class="anchar">
-
-          <a href="#">Home</a>
-          <a href="#">Inworks</a>
-          <a href="#">Program</a>
-          <a href="#">Team</a>
-          <a href="#">Doanate</a>
-        </div>
-      </div>
-      <h4><u style="background-color: transparent;">DIGITAL STUDIO</u></h4>
-      <h6>LET US CEOGN VOUR WTRETC</h6>
-      <button>ATTABTION TIMBARIW</button>
-    </div>
-    <h1>...</h1>
-    <h3><u style="background-color: #ffffff;">OUR SERVICES</u></h3>
-    <p>LET US HELP US TO FFOBAWOOS WO SERVICES</p>
-    <div class="four_div">
-      <div class="item item-1"><i class="bi bi-inboxes-fill"></i></div>
-      <div class="item item-2"><i class="bi bi-cursor"></i></div>
-      <div class="item item-3"><i class="bi bi-house-add-fill"></i></div>
-      <div class="item item-4"><i class="bi bi-flask"></i></div>
-    </div>
-    <h3><u style="background-color: #ffffff;">OUR PORTFOLIO</u></h3>
-    <p>WHAT WE HAVE DONE SO RAM</p>
-    <div class="four_div">
-      <div class="item item-1"><img
-          src="https://th.bing.com/th/id/OIP.lWf3ezIRORimwumFNi2jywHaFz?w=220&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
-          alt=""></i></div>
-      <div class="item item-2"><img
-          src="https://tse1.mm.bing.net/th/id/OIP.12wEjeCRKQmtv9B1oswN5QHaEK?rs=1&pid=ImgDetMain" alt=""></i>
-      </div>
-      <div class="item item-3"><img
-          src="https://www.mckimcreed.com/wp-content/uploads/2022/08/AHN_GroveCity_075330003-48.jpg" alt=""></i>
-      </div>
-      <div class="item item-4"><img
-          src="https://s-media-cache-ak0.pinimg.com/originals/fb/8a/4c/fb8a4c6d2acddfc6e4ce26b0bf9c4474.jpg" alt=""></i>
-      </div>
-    </div>
-  </div>
-
-</body>
-
-</html>
