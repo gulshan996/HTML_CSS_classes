@@ -5,24 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/fontawesome-free-6.7.2-web/css/all.css">
 </head>
 <style>
-  *{
+  * {
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
   }
-  .container {
+
+  body {
     display: flex;
+    align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+  }
+
+  .container {
+    height: 90vh;
+    width: 180vh;
+    background: #d8b5b5;
+    padding: 2vh;
   }
 
   .top-item {
     display: grid;
-    font-size: large;
     justify-content: center;
 
+  }
 
+  button {
+    height: 30px;
+    width: 30vh;
+    margin: 20px 15ch;
+    background: white;
+    color: black;
+  }
+button:hover{
+  background: rgb(66, 207, 66);
+  color: white;
+  height: 40px;
+  width: 32vh;
+}
+ button:active {
+      background-color: rgb(2, 27, 2);
+    }
+  .boxes {
+
+    display: grid;
+    grid-template-columns: 57vh 57vh 57vh;
+    gap: 20px;
+    margin-top: 5vh;
+box-shadow: 10px 5px 10px 5px #ba979733;
+
+  }
+
+  .items {
+    background: rgb(97, 104, 141);
+    height: 20vh;
+  }
+
+  p {
+    padding: 10px;
+    margin-left: 5px;
+  }
+
+  h3 {
+    padding: 2vh;
   }
 </style>
 
@@ -30,12 +81,60 @@
   <div class="container">
 
     <div class="top-item">
-      <h3>A List of the best media websites on the Internet
-      </h3>
-   
-      <button style="height: 30px; width: 20vh; margin-left: 15ch; background: white; color: black;">sarch social websites</button>
+      <h2>A List of the best media websites on the Internet
+      </h2>
+      <button>sarch social
+        websites</button>
     </div>
+    <h4>Featerad sacialo media Wedsites</h4>
+    <div class="boxes">
+      <div class="items">
+        <h3> <i class="fa-brands fa-facebook"></i>Facebook</h3>
+        <p>facebook</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3> <i class="fa-brands fa-twitter"></i>Twitter</h3>
+        <p>Twitter</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3> <i class="fa-brands fa-instagram"></i>Instagram</h3>
+        <p>Instagram</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3><i class="fa-brands fa-youtube"></i>YouTube</h3>
+        <p>YouTube</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3><i class="fa-brands fa-tiktok"></i>TikTok</h3>
+        <p>TikTok</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3> <i class="fa-brands fa-snapchat"></i>Snapchat</h3>
+        <p>Snapchat</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3> <i class="fa-brands fa-telegram"></i>Teligram</h3>
+        <p>Teligram</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3><i class="fa-brands fa-whatsapp"></i>Whats app</h3>
+        <p>Whats app</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
+      <div class="items">
+        <h3> <i class="fa-brands fa-pinterest"></i>Pinterest</h3>
+        <p>Pinterest</p>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. <br> adipisicing elit. Corrupti, unde!</p>
+      </div>
 
+    </div>
   </div>
 </body>
 
