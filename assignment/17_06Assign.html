@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* html,
+    body {
+      height: 100%;
+      width: 100%;
+    } */
+
+    .main {
+      height: 500px;
+      width: 700px;
+      display: grid;
+      grid-template-columns: repeat(3 auto);
+      margin: auto;
+
+
+    }
+    .item{
+      border: 2px solid black;
+    }
+    .item-1{
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    .item-2{
+      grid-column-start:2 ;
+      grid-column-end:4 ;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="item item-1">first</div>
+    <div class="item item-2">secend</div>
+    <div class="item item-3">thired</div>
+    <div class="item item-4">fourth</div>
+  </div>
+</body>
+
+</html>
