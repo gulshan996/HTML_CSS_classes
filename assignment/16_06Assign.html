@@ -14,11 +14,12 @@
     box-sizing: border-box;
   }
 
-  body {
+  html, body {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     margin: 0;
 
   }
@@ -26,8 +27,9 @@
   .container {
     height: 90vh;
     width: 180vh;
-    background: #d8b5b5;
+    background: #363131;
     padding: 2vh;
+    color: white;
   }
 
   .top-item {
@@ -43,38 +45,46 @@
     background: white;
     color: black;
   }
-button:hover{
-  background: rgb(66, 207, 66);
-  color: white;
-  height: 40px;
-  width: 32vh;
-}
- button:active {
-      background-color: rgb(2, 27, 2);
-    }
+
+  button:hover {
+    background: rgb(118, 199, 118);
+    color: white;
+    height: 40px;
+    width: 32vh;
+  }
+
+  button:active {
+    background-color: rgb(12, 165, 12);
+  }
+
   .boxes {
 
     display: grid;
     grid-template-columns: 57vh 57vh 57vh;
     gap: 20px;
     margin-top: 5vh;
-box-shadow: 10px 5px 10px 5px #ba979733;
+    box-shadow: 10px 5px 10px 5px #ba979733;
+    box-shadow: white;
 
   }
 
   .items {
     background: rgb(97, 104, 141);
     height: 20vh;
+    border-radius: 1vh;
+    padding: 3vh;
   }
 
   p {
     padding: 10px;
-    margin-left: 5px;
+    margin-left: 25px;
   }
 
-  h3 {
-    padding: 2vh;
-  }
+  h3 i {
+  margin-right: 15px; /* ya jitna space chahiye */
+}
+
+
 </style>
 
 <body>
