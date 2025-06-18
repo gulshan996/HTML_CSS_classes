@@ -12,41 +12,224 @@
       box-sizing: border-box;
     }
 
-    /* html,
+    html,
     body {
       height: 100%;
       width: 100%;
-    } */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
     .main {
-      height: 500px;
-      width: 700px;
-      display: grid;
-      grid-template-columns: repeat(3 auto);
-      margin: auto;
+      height: 90vh;
+      width: 140vh;
+      /* background: #ede5e5; */
+
+    }
+
+    .header {
+      /* background: #000; */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .navbaar {
+      color: green;
+    }
+
+    input {
+      width: 35vh;
+      height: 3.5vh;
+
+    }
+
+    .box1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5vh;
+    }
+
+    .items {
+      height: 15vh;
+      width: 18vh;
+      background: green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .prev {
+      background: green;
+      height: 5vh;
+      width: 6vh;
+      color: white;
 
 
     }
-    .item{
-      border: 2px solid black;
+
+    .next {
+      background: green;
+      height: 5vh;
+      width: 6vh;
+      color: white;
+
+
     }
-    .item-1{
-      grid-row-start: 1;
-      grid-row-end: 3;
+
+    p {
+      margin-top: 1.5vh;
+      margin-left: .8vh;
     }
-    .item-2{
-      grid-column-start:2 ;
-      grid-column-end:4 ;
+
+    .items-1 {
+
+      background: #ffffff;
+    }
+
+    .items-2 {
+      background:#ffffff;
+    }
+
+    h4 {
+      margin-top: 3vh;
+    }
+
+    .div1 {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    .pic1 {
+      height: 20vh;
+      width: 45vh;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .div2 {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+    }
+
+    .pic2 {
+      height: 16vh;
+      width: 35vh;
+      margin-top: 2vh;
+    }
+
+    .div3 {
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin-top: 2vh;
+      
+      
+    }
+    
+    .pic3 {
+      height: 10vh;
+    }
+    .pic-3{
+      width:60vh;
+    }
+    .first2{
+      display: flex;
+    }
+    .center{
+      display: flex;
+    
+    }
+    .last2{
+      display: flex;
+    }
+    .pic-1{
+      margin-right: 2vh;
+    }
+    .pic-2{
+      margin-right: 2vh;
+    }
+h5 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: green;
+      color: white;
+      margin-top: 2vh;
+      height: 3vh;
     }
   </style>
 </head>
 
 <body>
   <div class="main">
-    <div class="item item-1">first</div>
-    <div class="item item-2">secend</div>
-    <div class="item item-3">thired</div>
-    <div class="item item-4">fourth</div>
+    <div class="header">
+      <nav class="navbaar">
+        <h1>SOLIDITY</h1>
+        <span>free responsive tamplate</span>
+      </nav>
+      <div class="input">
+        <input type="text" class="text" id="text" placeholder="search hear...">
+      </div>
+    </div>
+    <div class="box1">
+      <div class="items items-1">
+        <div class="prev">
+          <p>PREV</p>
+        </div>
+      </div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items"></div>
+      <div class="items items-2">
+        <div class="next">
+          <p>NEXT</p>
+        </div>
+      </div>
+    </div>
+    <h4> OUR PORTFOLIO
+      <hr>
+    </h4>
+    <div class="div1">
+      <div class="pic1"><img src="/Img/game.jpeg" alt="img1"></div>
+      <div class="pic1"><img src="/Img/girl.jpeg" alt="img2"></div>
+      <div class="pic1"><img src="/Img/p0bvgbs6.jpg" alt="img3"></div>
+    </div>
+    <div class="div2">
+      <div class="pic2"><img src="/Img/3610475.jpg" alt=""></div>
+      <div class="pic2"><img src="/Img/cute-puppy-with-flowers-watercolor-styles_429429-118.avif" alt=""></div>
+      <div class="pic2"><img src="/Img/image.png" alt=""></div>
+      <div class="pic2"><img src="/Img/R (1).jpeg" alt=""></div>
+    </div>
+    <div class="div3">
+      <div class="first2">
+        <div class="pic3 pic-1"><img src="/Img/TwCte9t.jpg" alt=""></div>
+        <div class="pic3"><img src="/Img/p0bvgbs6.jpg" alt=""></div>
+      </div>
+      <div class="center">
+        <div class="pic3 pic-3"><img src="/Img/daylight-environment-forest-459225.jpg" alt=""></div>
+      </div>
+      <div class="last2">
+        <div class="pic3 pic-2"><img src="/Img/men.jpg" alt=""></div>
+        <div class="pic3"><img src="/Img/wp12119222.webp" alt=""></div>
+      </div>
+    </div>
+    <h5>copyright &copy; 2028 company name - free responsive template by solidity</h5>
   </div>
 </body>
 
