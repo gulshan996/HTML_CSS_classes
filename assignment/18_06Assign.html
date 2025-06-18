@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>18.06.25</title>
   <style>
-    *{
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    html, body{
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: 50% 25% 25%;
+      grid-template-rows: 45vh 45vh;
+      border: 3px solid salmon;
+      padding: 5vh;
+
+    }
+
+    .items {
+     margin: .3vh;
+    }
+
+    .items-1 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+
+    }
+    img{
       width: 100%;
       height: 100%;
     }
-    .main{
-      display: grid;
-      grid-template-columns: repeat(5,auto);
-
-    }
-    .items{
-      background: red;
-      height: 100px;
-      width: 100px;
-    
-    }
-    .items-3{
-      grid-row-start: 2;
-      grid-row-end: 5;
-    }
   </style>
 </head>
+
 <body>
   <div class="main">
-    <div class="items"></div>
-    <div class="items"></div>
-    <div class="items item-3"></div>
-    <div class="items"></div>
-    <div class="items"></div>
+    <div class="items items-1"><img src="/Img/3610475.jpg" alt=""></div>
+    <div class="items"><img src="/Img/game.jpeg" alt=""></div>
+    <div class="items"><img src="/Img/image.png" alt=""></div>
+    <div class="items items-4"><img src="/Img/p0bvgbs6.jpg" alt=""></div>
+    <div class="items"><img src="/Img/men.jpg" alt=""></div>
+
   </div>
 </body>
+
 </html>
