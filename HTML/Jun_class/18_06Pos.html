@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .static{
+      height: 300px;
+      width: 300px;
+      background: #000;
+      position: static;
+    }
+    .staticChild{
+      height: 150px;
+      width: 150px;
+      background: red;
+    }
+    .realative{
+       height: 300px;
+      width: 300px;
+      background: #000;
+      position: relative;
+      left: 50px;
+    }
+    .realetiveChild{
+      height: 150px;
+      width: 150px;
+      background: red;
+      
+    }
+    .positions{
+         height: 300px;
+      width: 300px;
+      background: #000;
+      position: relative;
+    }
+    .positionsChild{
+        height: 150px;
+      width: 150px;
+      background: red;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Positions</h1>
+  <h2>Positions Static</h2>
+  <div class="static">
+    <div class="staticChild">
+      
+    </div>
+  </div>
+
+  <h2>Positions Realative</h2>
+  <div class="realative">
+    <div class="realetiveChild">
+
+    </div>
+  
+  </div>
+  <h2>Positions Absolute</h2>
+<div class="positions">
+  <div class="positionsChild">
+
+  </div>
+</div>
+</body>
+</html>
