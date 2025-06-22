@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ .container{
+  height: 20rem;
+  width: 29rem;
+  /* border: 2px solid black; */
+  position: relative;
+ }
+ .items{
+  height: 20vh;
+  width: 20vh;
+  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+ 
+ }
+  .item-1{
+  background: #d2d21f;
+ }
+
+ .item-2{
+    z-index: 1;
+   top: 10vh;
+   left: 10vh;
+   background: red;
+  }
+  .item-3{
+    top: 20vh;
+  left: 20vh;
+  background: rgb(105, 13, 33);
+ }
+  .item-4{
+    top: 30vh;
+  left: 30vh;
+  width: 40vh;
+  z-index: 1;
+  background: #7a8fec;
+ }
+   .item-5{
+    top: 20vh;
+  left: 60vh;
+  background: #ad1180;
+ }
+  .item-6{
+    z-index: 1;
+   top: 10vh;
+   left: 70vh;
+   background: rgb(19, 90, 140);
+  }
+   .item-7{
+left: 80vh;
+   background: rgb(50, 160, 14);
+  }
+   .item-8{
+    z-index: 1;
+   top: 10vh;
+   left: 40vh;
+   background: rgb(89, 14, 200);
+  }
+   .item-9{
+    z-index: 1;
+   top: 5vh;
+   left: 42vh;
+   background: rgb(39, 214, 138);
+   width: 15vh;
+   height: 15vh;
+  }
+   .item-10{
+    width: 10vh;
+    height: 10vh;
+    z-index: 1;
+   /* top: 5vh; */
+   left: 45vh;
+   background: rgb(231, 220, 13);
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="items item-1">1</div>
+    <div class="items item-2">2</div>
+    <div class="items item-3">3</div>
+    <div class="items item-4">4</div>
+    <div class="items item-5">5</div>
+    <div class="items item-6">6</div>
+    <div class="items item-7">7</div>
+    <div class="items item-8">8</div>
+    <div class="items item-9">9</div>
+    <div class="items item-10">Gulu</div>
+  </div>
+  
+</body>
+</html>
