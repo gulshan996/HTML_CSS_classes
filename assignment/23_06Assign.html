@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .navbaar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      background: red;
+      height: 4rem;
+    }
+
+    .navItems {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      list-style: none;
+      font-size: 2rem;
+
+    }
+    img{
+      height: 100%;
+      width: 3rem;
+      border-radius: 50%;
+    }
+    .ourservice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .inner{
+      display: none;
+      /* display: flex; */
+      flex-direction: column;
+
+    }
+    .oursrevice:hover .inner {
+      display: block;
+      background: #000;
+    }
+  
+
+</style>
+</head>
+
+<body>
+  <div class="navbaar">
+      <img src="/Img/ggg.jpg" alt="">
+      <div class="navItems">
+    
+          <div>Home</div>
+          <div class="oursrevice">Our Service
+            
+            <div class="inner">
+
+              <a href="#">home</a>
+              <a href="#">home</a>
+              <a href="#">home</a>
+              <a href="#">home</a>
+            </div>
+          </div>
+          <div>Work</div>
+          <div>Info</div>
+         
+        </ul>
+      </div>
+
+    </div>
+</body>
+
+</html>
